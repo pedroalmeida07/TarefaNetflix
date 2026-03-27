@@ -9,17 +9,6 @@
     tools:context=".MainActivity">
 
     <ImageView
-        android:id="@+id/imagemCapa"
-        android:layout_width="0dp"
-        android:layout_height="320dp"
-        android:scaleType="centerCrop"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/capa_avatar" />
-
-    <ImageView
         android:id="@+id/imgLogo"
         android:layout_width="43dp"
         android:layout_height="60dp"
@@ -71,8 +60,7 @@
         android:layout_width="150dp"
         android:layout_height="100dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
-        app:layout_constraintStart_toStartOf="@+id/imagemCapa"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/guideLine2"
         app:srcCompat="@drawable/texto_avatar" />
 
