@@ -248,7 +248,16 @@
         app:layout_constraintTop_toTopOf="@+id/imgDuna"
         app:srcCompat="@drawable/capa_prenda" />
 
-
+    <TextView
+        android:id="@+id/txtNome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Pedro de Souza Almeida"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/guideLineVertical2"
+        app:layout_constraintStart_toStartOf="@+id/guideLineVertical1"
+        app:layout_constraintTop_toBottomOf="@+id/imgDuna" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
